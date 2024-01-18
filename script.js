@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycby_5e2jvah4N-w5nmf6e2AZ4JVBi4J-JurISNn7uEngCMdMCBBLJTf5xgMNWPO_MXhOgw/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw7EZFGEaSAOhFrCrNNl66WHwyqEyO9_4lEE_erDtELpKEPHvSfOjpWjDQbeuxroiA73g/exec';
 
 function fetchDataFromSheet(sheetName) {
     const url = `${scriptURL}?action=getSheetData&sheetName=${sheetName}`;
