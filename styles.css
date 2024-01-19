@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a1a1a; /* Dark background for the header */
+    color: white;
+    padding: 10px 0; /* Adjust top and bottom padding */
+    position: relative; /* For absolute positioning of the menu */
+    box-sizing: border-box; /* Ensure padding is included in height */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#schedule-container, #employee-list {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#hamburger-menu {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    right: 10px;
+    transform: translateY(-50%); /* Adjust for exact vertical center */
+    /* ... other styles remain the same ... */
+}
+
+.hamburger-line {
+    height: 3px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+#navigation {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#navigation.hidden {
+    display: none;
+}
+
+.page-section {
+    display: none;
+}
+
+#menu-overlay {
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent overlay */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 200px; /* Width of the overlay */
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

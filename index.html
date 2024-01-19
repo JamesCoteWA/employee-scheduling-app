@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Scheduling App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="hamburger-menu" onclick="toggleMenu()">
+            <!-- Hamburger Icon -->
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </div>
+        <div id="menu-overlay" class="hidden">
+            <ul id="navigation">
+                <li><a href="#" onclick="showSection('schedule-view')">Schedule View</a></li>
+                <li><a href="#" onclick="showSection('employee-management')">Employee Management</a></li>
+                <li><a href="#" onclick="showSection('role-assignment')">Role Assignment</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="schedule-view" class="page-section">
+            <!-- Content for Schedule View -->
+        </section>
+        <section id="employee-management" class="page-section hidden">
+            <!-- Content for Employee Management -->
+        </section>
+        <section id="role-assignment" class="page-section hidden">
+            <!-- Content for Role Assignment -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
